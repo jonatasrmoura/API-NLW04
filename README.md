@@ -51,3 +51,27 @@ dentro do typeORM,
 
 ## Criação da Rota de usuário
 OK!
+
+# Testando a aplicação
+
+## Testes automatizados
+1 - Testes unitários -> são testes que vão testar determinada funcionalidade na minha aplicação, sejá um serviço uma funcão específica
+
+2 - Teste de integração -> ex: fazer teste da criação de usuário
+    O que vou ter que testar: request -> routes -> controller -> repository (aqui faz a criação)
+    <- repository <- controller <- response
+
+3 - Ponta á ponta (E2E) -> Vai testar toda a ação do usuário em uma aplicação, é bastante utilizado em aplicações Front-end
+
+## Instalações de ferramentas de testes
+1 - jest -> yarn add jest @types/jest -D
+
+### Criar arquivo de configuração do jest
+yarn jest --init
+
+
+Essa lib é um preset que vou utilizar para trabalhar com typescript dentro dos testes
+instalar -> yarn add ts-jest -D
+
+Essa lib vai fazer eu conseguir trabalhar com as rotas do express nos meus testes
+instalar -> yarn add supertest @types/supertest -D
