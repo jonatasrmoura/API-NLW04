@@ -57,7 +57,7 @@ OK!
 ## Testes automatizados
 1 - Testes unitários -> são testes que vão testar determinada funcionalidade na minha aplicação, sejá um serviço uma funcão específica
 
-2 - Teste de integração -> ex: fazer teste da criação de usuário
+2 - Teste de integração -> ex: fazer teste da criação de usuário 
     O que vou ter que testar: request -> routes -> controller -> repository (aqui faz a criação)
     <- repository <- controller <- response
 
